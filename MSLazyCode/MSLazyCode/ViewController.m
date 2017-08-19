@@ -27,7 +27,7 @@
 
 - (IBAction)transformBtnOnClick:(id)sender {
 
-    NSString *str = self.originTxView.
+//    NSString *str = self.originTxView.
     
 }
 
