@@ -14,6 +14,7 @@
 		B43E19B31F468D9F006C14A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43E19B11F468D9F006C14A3 /* Main.storyboard */; };
 		B43E19BE1F468D9F006C14A3 /* MSLazyCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B43E19BD1F468D9F006C14A3 /* MSLazyCodeTests.m */; };
 		B43E19C91F468D9F006C14A3 /* MSLazyCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B43E19C81F468D9F006C14A3 /* MSLazyCodeUITests.m */; };
+		B43E1A851F486F8C006C14A3 /* MyTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B43E1A841F486F8C006C14A3 /* MyTitleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		B43E19C41F468D9F006C14A3 /* MSLazyCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSLazyCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43E19C81F468D9F006C14A3 /* MSLazyCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSLazyCodeUITests.m; sourceTree = "<group>"; };
 		B43E19CA1F468D9F006C14A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B43E1A831F486F8C006C14A3 /* MyTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTitleView.h; sourceTree = "<group>"; };
+		B43E1A841F486F8C006C14A3 /* MyTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTitleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 				B43E19A71F468D9E006C14A3 /* AppDelegate.m */,
 				B43E19AC1F468D9F006C14A3 /* ViewController.h */,
 				B43E19AD1F468D9F006C14A3 /* ViewController.m */,
+				B43E1A831F486F8C006C14A3 /* MyTitleView.h */,
+				B43E1A841F486F8C006C14A3 /* MyTitleView.m */,
 				B43E19AF1F468D9F006C14A3 /* Assets.xcassets */,
 				B43E19B11F468D9F006C14A3 /* Main.storyboard */,
 				B43E19B41F468D9F006C14A3 /* Info.plist */,
@@ -272,6 +277,7 @@
 				B43E19AE1F468D9F006C14A3 /* ViewController.m in Sources */,
 				B43E19AB1F468D9E006C14A3 /* main.m in Sources */,
 				B43E19A81F468D9E006C14A3 /* AppDelegate.m in Sources */,
+				B43E1A851F486F8C006C14A3 /* MyTitleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +504,7 @@
 				B43E19CF1F468D9F006C14A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B43E19D01F468D9F006C14A3 /* Build configuration list for PBXNativeTarget "MSLazyCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				B43E19D21F468D9F006C14A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B43E19D31F468D9F006C14A3 /* Build configuration list for PBXNativeTarget "MSLazyCodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				B43E19D51F468D9F006C14A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

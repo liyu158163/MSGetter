@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MyTitleView.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,14 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
 }
+
+//- (void)changeColor{
+//    
+//    NSRect boundsRect = [[[_window contentView] superview] bounds];
+//    MyTitleView * titleview = [[MyTitleView alloc] initWithFrame:boundsRect];
+//    [titleview setAutoresizingMask:(NSViewWidthSizable | NSViewHeightSizable)];
+//    [[[_window contentView] superview] addSubview:titleview positioned:NSWindowBelow relativeTo:[[[[_window contentView] superview] subviews] objectAtIndex:0]];
+//}
 
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {

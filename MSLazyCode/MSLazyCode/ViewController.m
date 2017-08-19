@@ -9,8 +9,11 @@
 #import "ViewController.h"
 
 @interface ViewController()
-@property (weak) IBOutlet NSScrollView *originTxView;
-@property (weak) IBOutlet NSScrollView *resultTxView;
+
+@property (unsafe_unretained) IBOutlet NSTextView *originTxView;
+@property (unsafe_unretained) IBOutlet NSTextView *resultTxView;
+
+
 @property (weak) IBOutlet NSButton *transformBtn;
 
 
@@ -27,6 +30,8 @@
 
 - (IBAction)transformBtnOnClick:(id)sender {
 
+    NSLog(@"原：%@",self.originTxView.string);
+    
 //    NSString *str = self.originTxView.
     
 }
