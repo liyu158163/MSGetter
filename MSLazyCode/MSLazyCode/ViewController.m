@@ -28,6 +28,15 @@
     // Do any additional setup after loading the view.
 }
 
+- (IBAction)copyAction:(id)sender {
+    
+    NSPasteboard *paste = [NSPasteboard generalPasteboard];
+    [paste clearContents];
+    [paste writeObjects:@[self.resultTxView.string]];
+    
+}
+
+
 - (IBAction)transformBtnOnClick:(id)sender {
 
 //    NSLog(@"原：%@",self.originTxView.string);
