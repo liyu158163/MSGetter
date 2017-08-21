@@ -15,6 +15,10 @@
 		B43E19BE1F468D9F006C14A3 /* MSLazyCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B43E19BD1F468D9F006C14A3 /* MSLazyCodeTests.m */; };
 		B43E19C91F468D9F006C14A3 /* MSLazyCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B43E19C81F468D9F006C14A3 /* MSLazyCodeUITests.m */; };
 		B43E1A851F486F8C006C14A3 /* MyTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B43E1A841F486F8C006C14A3 /* MyTitleView.m */; };
+		B4F71B001F4A88CE0099F886 /* MSPropertyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F71AFF1F4A88CE0099F886 /* MSPropertyModel.m */; };
+		B4F71B041F4A98210099F886 /* PayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F71B021F4A98210099F886 /* PayViewController.m */; };
+		B4F71B051F4A98210099F886 /* PayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4F71B031F4A98210099F886 /* PayViewController.xib */; };
+		B4F71B081F4A98490099F886 /* PayWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F71B071F4A98490099F886 /* PayWindowController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +56,13 @@
 		B43E19CA1F468D9F006C14A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B43E1A831F486F8C006C14A3 /* MyTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTitleView.h; sourceTree = "<group>"; };
 		B43E1A841F486F8C006C14A3 /* MyTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTitleView.m; sourceTree = "<group>"; };
+		B4F71AFE1F4A88CE0099F886 /* MSPropertyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPropertyModel.h; sourceTree = "<group>"; };
+		B4F71AFF1F4A88CE0099F886 /* MSPropertyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPropertyModel.m; sourceTree = "<group>"; };
+		B4F71B011F4A98210099F886 /* PayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayViewController.h; sourceTree = "<group>"; };
+		B4F71B021F4A98210099F886 /* PayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayViewController.m; sourceTree = "<group>"; };
+		B4F71B031F4A98210099F886 /* PayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayViewController.xib; sourceTree = "<group>"; };
+		B4F71B061F4A98490099F886 /* PayWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayWindowController.h; sourceTree = "<group>"; };
+		B4F71B071F4A98490099F886 /* PayWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayWindowController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +117,13 @@
 				B43E19A71F468D9E006C14A3 /* AppDelegate.m */,
 				B43E19AC1F468D9F006C14A3 /* ViewController.h */,
 				B43E19AD1F468D9F006C14A3 /* ViewController.m */,
+				B4F71AFE1F4A88CE0099F886 /* MSPropertyModel.h */,
+				B4F71AFF1F4A88CE0099F886 /* MSPropertyModel.m */,
+				B4F71B061F4A98490099F886 /* PayWindowController.h */,
+				B4F71B071F4A98490099F886 /* PayWindowController.m */,
+				B4F71B011F4A98210099F886 /* PayViewController.h */,
+				B4F71B021F4A98210099F886 /* PayViewController.m */,
+				B4F71B031F4A98210099F886 /* PayViewController.xib */,
 				B43E1A831F486F8C006C14A3 /* MyTitleView.h */,
 				B43E1A841F486F8C006C14A3 /* MyTitleView.m */,
 				B43E19AF1F468D9F006C14A3 /* Assets.xcassets */,
@@ -248,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4F71B051F4A98210099F886 /* PayViewController.xib in Resources */,
 				B43E19B01F468D9F006C14A3 /* Assets.xcassets in Resources */,
 				B43E19B31F468D9F006C14A3 /* Main.storyboard in Resources */,
 			);
@@ -275,7 +294,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B43E19AE1F468D9F006C14A3 /* ViewController.m in Sources */,
+				B4F71B041F4A98210099F886 /* PayViewController.m in Sources */,
 				B43E19AB1F468D9E006C14A3 /* main.m in Sources */,
+				B4F71B081F4A98490099F886 /* PayWindowController.m in Sources */,
+				B4F71B001F4A88CE0099F886 /* MSPropertyModel.m in Sources */,
 				B43E19A81F468D9E006C14A3 /* AppDelegate.m in Sources */,
 				B43E1A851F486F8C006C14A3 /* MyTitleView.m in Sources */,
 			);
