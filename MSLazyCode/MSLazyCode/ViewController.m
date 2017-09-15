@@ -256,7 +256,7 @@
     
     NSLog(@"%@  %@",typeName,uName);
     
-    NSString *strFirst=[NSString stringWithFormat:@"\n- (%@)%@",typeName,uName];
+    NSString *strFirst=[NSString stringWithFormat:@"\n- (%@ *)%@",typeName,uName];
     myResult=[strFirst stringByAppendingString:@"\n{"];
     NSString *underLineName=[NSString stringWithFormat:@"_%@",uName];
     
