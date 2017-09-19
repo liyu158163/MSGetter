@@ -46,7 +46,7 @@
     
     NSString *result =[self.originTxView.string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
     
-    NSString *allResult=@"";
+    NSMutableString *allResult = [NSMutableString stringWithString:@"#pragma mark - Getter \n"];
     NSArray *newArr=[result componentsSeparatedByString:@"@"];
     
     for (NSString *output in newArr) {
@@ -57,7 +57,8 @@
         }
         // NSLog(@"%@\n....",[self formatGetter:output]);
         NSString *spaceStr=[NSString stringWithFormat:@"%@\n",[self formatGetter:output]];
-        allResult=[allResult stringByAppendingString:spaceStr];
+        
+        [allResult appendString:spaceStr];
     }
     
     self.resultTxView.string = allResult;
@@ -70,7 +71,7 @@
     NSString *result =[self.originTxView.string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
     
     
-    NSMutableString *coderResult = [NSMutableString stringWithString:@"- (id)initWithCoder:(NSCoder *)aCoder {\n "];
+    NSMutableString *coderResult = [NSMutableString stringWithString:@"- (id)initWithCoder:(NSCoder *)aCoder {\n        if(self){ \n"];
     NSMutableString *enCoderResult = [NSMutableString stringWithString:@"- (void)encodeWithCoder:(NSCoder *)aDecoder {\n "];
     
     NSArray *newArr=[result componentsSeparatedByString:@"@"];
@@ -102,7 +103,7 @@
         [enCoderResult appendString:@"\n"];
     }
     
-    [coderResult appendString:@"}\n"];
+    [coderResult appendString:@" }\n    return self ;\n} \n"];
     [enCoderResult appendString:@"}\n"];
     
     self.resultTxView.string = [NSString stringWithFormat:@"%@ \n %@",coderResult,enCoderResult];
@@ -170,28 +171,28 @@
     
     if ([objClassArray containsObject:typeName]) {
         
-        result = [NSString stringWithFormat:@"self.%@ = [aCoder decodeObjectForKey:@\"%@\"] ;",uName,uName];
+        result = [NSString stringWithFormat:@"self.%@ = [aCoder decodeObjectForKey:@\"%@\"];",uName,uName];
     }
     
     if ([typeName isEqualToString:@"bool"]) {
         
-        result = [NSString stringWithFormat:@"self.%@ = [aCoder decodeBoolForKey:@\"%@\"] ;",uName,uName];
+        result = [NSString stringWithFormat:@"self.%@ = [aCoder decodeBoolForKey:@\"%@\"];",uName,uName];
     }
     
     
     if ([typeName isEqualToString:@"int"]) {
         
-        result = [NSString stringWithFormat:@"self.%@ = [aCoder decodeIntForKey:@\"%@\"] ;",uName,uName];
+        result = [NSString stringWithFormat:@"self.%@ = [aCoder decodeIntForKey:@\"%@\"];",uName,uName];
     }
     
     if ([typeName isEqualToString:@"cgfloat"]) {
         
-        result = [NSString stringWithFormat:@"self.%@ = [aCoder decodeFloatForKey:@\"%@\"] ;",uName,uName];
+        result = [NSString stringWithFormat:@"self.%@ = [aCoder decodeFloatForKey:@\"%@\"];",uName,uName];
     }
     
     if ([typeName isEqualToString:@"double"]) {
         
-        result = [NSString stringWithFormat:@"self.%@ = [aCoder decodeDoubleForKey:@\"%@\"] ;",uName,uName];
+        result = [NSString stringWithFormat:@"self.%@ = [aCoder decodeDoubleForKey:@\"%@\"];",uName,uName];
     }
     
     
@@ -266,7 +267,7 @@
     
     NSString *noxinghaoStr=[typeName stringByReplacingOccurrencesOfString:@"*" withString:@""];
     
-    NSString *tempThird=[NSString stringWithFormat:@"\n        %@=[[%@ alloc]init];",underLineName,noxinghaoStr];
+    NSString *tempThird=[NSString stringWithFormat:@"\n        %@ = [[%@ alloc] init];",underLineName,noxinghaoStr];
     myResult=[myResult stringByAppendingString:tempThird];
     myResult=[myResult stringByAppendingString:@"\n    }"];
     
