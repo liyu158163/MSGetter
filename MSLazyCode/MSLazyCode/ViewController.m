@@ -16,10 +16,7 @@
 @property (unsafe_unretained) IBOutlet NSTextView *originTxView;
 @property (unsafe_unretained) IBOutlet NSTextView *resultTxView;
 
-
 @property (weak) IBOutlet NSButton *transformBtn;
-
-
 
 @end
 
@@ -28,7 +25,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    // Do any additional setup after loading the view.
 }
 
 - (IBAction)copyAction:(id)sender {
@@ -241,6 +237,7 @@
     return resultStr;
    
     
+    
 }
 
 
@@ -261,9 +258,8 @@
     myResult=[strFirst stringByAppendingString:@"\n{"];
     NSString *underLineName=[NSString stringWithFormat:@"_%@",uName];
     
-    NSString *tempSecion=[NSString stringWithFormat:@"\n    if(!%@)",underLineName];
+    NSString *tempSecion=[NSString stringWithFormat:@"\n    if(!%@){",underLineName];
     myResult=[myResult stringByAppendingString:tempSecion];
-    myResult=[myResult stringByAppendingString:@"\n    {"];
     
     NSString *noxinghaoStr=[typeName stringByReplacingOccurrencesOfString:@"*" withString:@""];
     
