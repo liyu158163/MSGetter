@@ -19,6 +19,11 @@
     // Insert code here to initialize your application
 }
 
+-(BOOL)applicationShouldHandleReopen:(NSApplication *)sender hasVisibleWindows:(BOOL)flag
+{
+    return YES;
+}
+
 //- (void)changeColor{
 //    
 //    NSRect boundsRect = [[[_window contentView] superview] bounds];

@@ -7,6 +7,7 @@
 //
 
 #import "PayWindowController.h"
+#import "PayViewController.h"
 
 @interface PayWindowController ()
 
@@ -16,8 +17,13 @@
 
 - (void)windowDidLoad {
     [super windowDidLoad];
+    [self.window setFrame:NSMakeRect(0, 0, 200, 200) display:YES];
     
-    // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
+    
+    PayViewController *payVC = [[PayViewController alloc]initWithNibName:@"PayViewController" bundle:nil];
+    self.contentViewController = payVC;
+    
+    
 }
 
 @end

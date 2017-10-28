@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B48039391FA4BF1A00CBC6D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B48039381FA4BF1A00CBC6D7 /* AppDelegate.m */; };
+		B480393B1FA4BF1A00CBC6D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B480393A1FA4BF1A00CBC6D7 /* Assets.xcassets */; };
+		B480393E1FA4BF1A00CBC6D7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B480393C1FA4BF1A00CBC6D7 /* MainMenu.xib */; };
+		B48039411FA4BF1A00CBC6D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B48039401FA4BF1A00CBC6D7 /* main.m */; };
+		B480394B1FA4BF3500CBC6D7 /* DonateWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48039491FA4BF3500CBC6D7 /* DonateWindowController.m */; };
+		B480394C1FA4BF3500CBC6D7 /* DonateWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B480394A1FA4BF3500CBC6D7 /* DonateWindowController.xib */; };
+		B48039501FA4BF4200CBC6D7 /* HelpWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B480394E1FA4BF4200CBC6D7 /* HelpWindowController.m */; };
+		B48039511FA4BF4200CBC6D7 /* HelpWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B480394F1FA4BF4200CBC6D7 /* HelpWindowController.xib */; };
+		B48039551FA4BF6F00CBC6D7 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48039531FA4BF6F00CBC6D7 /* MainWindowController.m */; };
+		B48039561FA4BF6F00CBC6D7 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B48039541FA4BF6F00CBC6D7 /* MainWindowController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B48039341FA4BF1A00CBC6D7 /* MSLazyCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSLazyCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B48039371FA4BF1A00CBC6D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B48039381FA4BF1A00CBC6D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B480393A1FA4BF1A00CBC6D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B480393D1FA4BF1A00CBC6D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B480393F1FA4BF1A00CBC6D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B48039401FA4BF1A00CBC6D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B48039421FA4BF1A00CBC6D7 /* MSLazyCode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MSLazyCode.entitlements; sourceTree = "<group>"; };
+		B48039481FA4BF3500CBC6D7 /* DonateWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DonateWindowController.h; sourceTree = "<group>"; };
+		B48039491FA4BF3500CBC6D7 /* DonateWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DonateWindowController.m; sourceTree = "<group>"; };
+		B480394A1FA4BF3500CBC6D7 /* DonateWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DonateWindowController.xib; sourceTree = "<group>"; };
+		B480394D1FA4BF4200CBC6D7 /* HelpWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelpWindowController.h; sourceTree = "<group>"; };
+		B480394E1FA4BF4200CBC6D7 /* HelpWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelpWindowController.m; sourceTree = "<group>"; };
+		B480394F1FA4BF4200CBC6D7 /* HelpWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelpWindowController.xib; sourceTree = "<group>"; };
+		B48039521FA4BF6F00CBC6D7 /* MainWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		B48039531FA4BF6F00CBC6D7 /* MainWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		B48039541FA4BF6F00CBC6D7 /* MainWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B48039311FA4BF1A00CBC6D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B480392B1FA4BF1A00CBC6D7 = {
+			isa = PBXGroup;
+			children = (
+				B48039361FA4BF1A00CBC6D7 /* MSLazyCode */,
+				B48039351FA4BF1A00CBC6D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B48039351FA4BF1A00CBC6D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B48039341FA4BF1A00CBC6D7 /* MSLazyCode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B48039361FA4BF1A00CBC6D7 /* MSLazyCode */ = {
+			isa = PBXGroup;
+			children = (
+				B48039371FA4BF1A00CBC6D7 /* AppDelegate.h */,
+				B48039381FA4BF1A00CBC6D7 /* AppDelegate.m */,
+				B48039521FA4BF6F00CBC6D7 /* MainWindowController.h */,
+				B48039531FA4BF6F00CBC6D7 /* MainWindowController.m */,
+				B48039541FA4BF6F00CBC6D7 /* MainWindowController.xib */,
+				B480394D1FA4BF4200CBC6D7 /* HelpWindowController.h */,
+				B480394E1FA4BF4200CBC6D7 /* HelpWindowController.m */,
+				B480394F1FA4BF4200CBC6D7 /* HelpWindowController.xib */,
+				B48039481FA4BF3500CBC6D7 /* DonateWindowController.h */,
+				B48039491FA4BF3500CBC6D7 /* DonateWindowController.m */,
+				B480394A1FA4BF3500CBC6D7 /* DonateWindowController.xib */,
+				B480393A1FA4BF1A00CBC6D7 /* Assets.xcassets */,
+				B480393C1FA4BF1A00CBC6D7 /* MainMenu.xib */,
+				B480393F1FA4BF1A00CBC6D7 /* Info.plist */,
+				B48039401FA4BF1A00CBC6D7 /* main.m */,
+				B48039421FA4BF1A00CBC6D7 /* MSLazyCode.entitlements */,
+			);
+			path = MSLazyCode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B48039331FA4BF1A00CBC6D7 /* MSLazyCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B48039451FA4BF1A00CBC6D7 /* Build configuration list for PBXNativeTarget "MSLazyCode" */;
+			buildPhases = (
+				B48039301FA4BF1A00CBC6D7 /* Sources */,
+				B48039311FA4BF1A00CBC6D7 /* Frameworks */,
+				B48039321FA4BF1A00CBC6D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSLazyCode;
+			productName = MSLazyCode;
+			productReference = B48039341FA4BF1A00CBC6D7 /* MSLazyCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B480392C1FA4BF1A00CBC6D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = MelissaShu;
+				TargetAttributes = {
+					B48039331FA4BF1A00CBC6D7 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B480392F1FA4BF1A00CBC6D7 /* Build configuration list for PBXProject "MSLazyCode" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B480392B1FA4BF1A00CBC6D7;
+			productRefGroup = B48039351FA4BF1A00CBC6D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B48039331FA4BF1A00CBC6D7 /* MSLazyCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B48039321FA4BF1A00CBC6D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B480393B1FA4BF1A00CBC6D7 /* Assets.xcassets in Resources */,
+				B480393E1FA4BF1A00CBC6D7 /* MainMenu.xib in Resources */,
+				B48039511FA4BF4200CBC6D7 /* HelpWindowController.xib in Resources */,
+				B480394C1FA4BF3500CBC6D7 /* DonateWindowController.xib in Resources */,
+				B48039561FA4BF6F00CBC6D7 /* MainWindowController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B48039301FA4BF1A00CBC6D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48039551FA4BF6F00CBC6D7 /* MainWindowController.m in Sources */,
+				B48039411FA4BF1A00CBC6D7 /* main.m in Sources */,
+				B48039391FA4BF1A00CBC6D7 /* AppDelegate.m in Sources */,
+				B48039501FA4BF4200CBC6D7 /* HelpWindowController.m in Sources */,
+				B480394B1FA4BF3500CBC6D7 /* DonateWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B480393C1FA4BF1A00CBC6D7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B480393D1FA4BF1A00CBC6D7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B48039431FA4BF1A00CBC6D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B48039441FA4BF1A00CBC6D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B48039461FA4BF1A00CBC6D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MSLazyCode/MSLazyCode.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MSLazyCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MelissaShu.MSLazyCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B48039471FA4BF1A00CBC6D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MSLazyCode/MSLazyCode.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MSLazyCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MelissaShu.MSLazyCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B480392F1FA4BF1A00CBC6D7 /* Build configuration list for PBXProject "MSLazyCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48039431FA4BF1A00CBC6D7 /* Debug */,
+				B48039441FA4BF1A00CBC6D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B48039451FA4BF1A00CBC6D7 /* Build configuration list for PBXNativeTarget "MSLazyCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48039461FA4BF1A00CBC6D7 /* Debug */,
+				B48039471FA4BF1A00CBC6D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B480392C1FA4BF1A00CBC6D7 /* Project object */;
+}

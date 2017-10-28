@@ -9,7 +9,6 @@
 #import "PayViewController.h"
 
 @interface PayViewController ()
-
 @end
 
 @implementation PayViewController
